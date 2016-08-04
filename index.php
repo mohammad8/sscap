@@ -1254,7 +1254,7 @@ https://telegram.me/sscapachero_bot
 //
 //                case '5':{
 //                    $DB = getMakeDB(getCurrentMakeID($userID));
-//                    $DB->f->chid = "@p_o_k_e_r_bot";
+//                    $DB->f->chid = "@mhrdev";
 //                    $DB->done = true;
 //                    updateDB(getCurrentMakeID($userID),$DB);
 //                    setUserStep($userID,'1');
@@ -1358,7 +1358,7 @@ https://telegram.me/sscapachero_bot
 
                 case '10':{
                     $DB = getMakeDB(getCurrentMakeID($userID));
-                    $DB->s->chid = "@p_o_k_e_r_bot";
+                    $DB->s->chid = "@mhrdev";
                     $DB->done = true;
                     updateDB(getCurrentMakeID($userID),$DB);
                     setUserStep($userID,'1');
@@ -1420,7 +1420,7 @@ https://telegram.me/mhrdev/834
                         [['text'=>$ad_btn,'url'=>$ad_url]], 
                       [['text'=>'به رایگان در تلگـ ـلیست کانال خود را ثبت کنید','url'=>'http://teleglist.com/?bot']],
 
-                        [['text'=>'ربات پیامرسان سازنده','url'=>$links['@p_o_k_e_r_bot']]],
+                        [['text'=>'ربات پیامرسان سازنده','url'=>$links['p_o_k_e_r_bot']]],
 
                         [['text'=>'تماس با توسعه دهنده','url'=>'https://telegram.me/po_oker']],
                         [['text'=>'ربات نظر سنجی در کانال','url'=>'https://telegram.me/chvotebot']]
